@@ -1,26 +1,99 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Initial View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PhysicsHarryDbk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="InitialViewController" customModule="PhysicsHarryDbk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7h-l7-Edw">
+                                <rect key="frame" x="131" y="325" width="58" height="30"/>
+                                <state key="normal" title="Start ➡️"/>
+                                <connections>
+                                    <segue destination="ypa-qV-NCh" kind="modal" modalTransitionStyle="flipHorizontal" id="fNC-iJ-BEg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Physics App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7At-3h-nMP">
+                                <rect key="frame" x="113" y="171" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-728" y="298"/>
+        </scene>
+        <!--Rocket-->
+        <scene sceneID="Eig-ub-Hzp">
+            <objects>
+                <viewController id="pLX-6c-aZH" customClass="RocketViewController" customModule="PhysicsHarryDbk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cJC-gQ-iqX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q3r-Zd-Ybn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qZY-R7-od4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rocket" id="CYx-dp-CJm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y0D-U0-qa7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="499" y="632"/>
+        </scene>
+        <!--Kinematics-->
+        <scene sceneID="QKv-bn-ATm">
+            <objects>
+                <viewController id="XkL-nI-3KW" customClass="RocketViewController" customModule="PhysicsHarryDbk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lPo-ko-nP9"/>
+                        <viewControllerLayoutGuide type="bottom" id="awn-lE-FYg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lLq-wH-trl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Kinematics" id="dbk-YR-P0L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AVd-Ya-b1k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493" y="-59"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="exH-HM-QQJ">
+            <objects>
+                <tabBarController id="ypa-qV-NCh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5Af-Hz-BDJ"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="BFA-i7-Fsf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XkL-nI-3KW" kind="relationship" relationship="viewControllers" id="JyO-ec-dag"/>
+                        <segue destination="pLX-6c-aZH" kind="relationship" relationship="viewControllers" id="ge3-mU-TrF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTt-Le-79Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-259" y="292"/>
         </scene>
     </scenes>
 </document>

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		756F0CF01CE0EF7B00F7D630 /* RocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */; };
+		756F0CF21CE0F00800F7D630 /* KinematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */; };
 		7587DD8A1CCFD338005148F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD891CCFD338005148F0 /* AppDelegate.swift */; };
-		7587DD8C1CCFD338005148F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD8B1CCFD338005148F0 /* ViewController.swift */; };
+		7587DD8C1CCFD338005148F0 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD8B1CCFD338005148F0 /* InitialViewController.swift */; };
 		7587DD8F1CCFD338005148F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7587DD8D1CCFD338005148F0 /* Main.storyboard */; };
 		7587DD911CCFD338005148F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7587DD901CCFD338005148F0 /* Assets.xcassets */; };
 		7587DD941CCFD338005148F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7587DD921CCFD338005148F0 /* LaunchScreen.storyboard */; };
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketViewController.swift; sourceTree = "<group>"; };
+		756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicsViewController.swift; sourceTree = "<group>"; };
 		7587DD861CCFD338005148F0 /* PhysicsHarryDbk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsHarryDbk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7587DD891CCFD338005148F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7587DD8B1CCFD338005148F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7587DD8B1CCFD338005148F0 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		7587DD8E1CCFD338005148F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7587DD901CCFD338005148F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7587DD931CCFD338005148F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				7587DD891CCFD338005148F0 /* AppDelegate.swift */,
-				7587DD8B1CCFD338005148F0 /* ViewController.swift */,
+				7587DD8B1CCFD338005148F0 /* InitialViewController.swift */,
 				7587DD8D1CCFD338005148F0 /* Main.storyboard */,
+				756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */,
+				756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */,
 				7587DD901CCFD338005148F0 /* Assets.xcassets */,
 				7587DD921CCFD338005148F0 /* LaunchScreen.storyboard */,
 				7587DD951CCFD338005148F0 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7587DD8C1CCFD338005148F0 /* ViewController.swift in Sources */,
+				756F0CF21CE0F00800F7D630 /* KinematicsViewController.swift in Sources */,
+				7587DD8C1CCFD338005148F0 /* InitialViewController.swift in Sources */,
 				7587DD8A1CCFD338005148F0 /* AppDelegate.swift in Sources */,
+				756F0CF01CE0EF7B00F7D630 /* RocketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +495,7 @@
 				7587DDB01CCFD338005148F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7587DDB11CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbkTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				7587DDB31CCFD338005148F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7587DDB41CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbkUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				7587DDB61CCFD338005148F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
