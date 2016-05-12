@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756F0CF01CE0EF7B00F7D630 /* RocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */; };
+		756F0CF21CE0F00800F7D630 /* KinematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */; };
+		7587DD8A1CCFD338005148F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD891CCFD338005148F0 /* AppDelegate.swift */; };
+		7587DD8C1CCFD338005148F0 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD8B1CCFD338005148F0 /* InitialViewController.swift */; };
+		7587DD8F1CCFD338005148F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7587DD8D1CCFD338005148F0 /* Main.storyboard */; };
+		7587DD911CCFD338005148F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7587DD901CCFD338005148F0 /* Assets.xcassets */; };
+		7587DD941CCFD338005148F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7587DD921CCFD338005148F0 /* LaunchScreen.storyboard */; };
+		7587DD9F1CCFD338005148F0 /* PhysicsHarryDbkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD9E1CCFD338005148F0 /* PhysicsHarryDbkTests.swift */; };
+		7587DDAA1CCFD338005148F0 /* PhysicsHarryDbkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DDA91CCFD338005148F0 /* PhysicsHarryDbkUITests.swift */; };
+		759706751CE23710007C3C2F /* KinematicVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759706741CE23710007C3C2F /* KinematicVar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7587DD9B1CCFD338005148F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7587DD7E1CCFD338005148F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7587DD851CCFD338005148F0;
+			remoteInfo = PhysicsHarryDbk;
+		};
+		7587DDA61CCFD338005148F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7587DD7E1CCFD338005148F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7587DD851CCFD338005148F0;
+			remoteInfo = PhysicsHarryDbk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketViewController.swift; sourceTree = "<group>"; };
+		756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicsViewController.swift; sourceTree = "<group>"; };
+		7587DD861CCFD338005148F0 /* PhysicsHarryDbk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsHarryDbk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7587DD891CCFD338005148F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7587DD8B1CCFD338005148F0 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		7587DD8E1CCFD338005148F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7587DD901CCFD338005148F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7587DD931CCFD338005148F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7587DD951CCFD338005148F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7587DD9A1CCFD338005148F0 /* PhysicsHarryDbkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsHarryDbkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7587DD9E1CCFD338005148F0 /* PhysicsHarryDbkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsHarryDbkTests.swift; sourceTree = "<group>"; };
+		7587DDA01CCFD338005148F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7587DDA51CCFD338005148F0 /* PhysicsHarryDbkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysicsHarryDbkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7587DDA91CCFD338005148F0 /* PhysicsHarryDbkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsHarryDbkUITests.swift; sourceTree = "<group>"; };
+		7587DDAB1CCFD338005148F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759706741CE23710007C3C2F /* KinematicVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicVar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7587DD831CCFD338005148F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587DD971CCFD338005148F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587DDA21CCFD338005148F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7587DD7D1CCFD338005148F0 = {
+			isa = PBXGroup;
+			children = (
+				7587DD881CCFD338005148F0 /* PhysicsHarryDbk */,
+				7587DD9D1CCFD338005148F0 /* PhysicsHarryDbkTests */,
+				7587DDA81CCFD338005148F0 /* PhysicsHarryDbkUITests */,
+				7587DD871CCFD338005148F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7587DD871CCFD338005148F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7587DD861CCFD338005148F0 /* PhysicsHarryDbk.app */,
+				7587DD9A1CCFD338005148F0 /* PhysicsHarryDbkTests.xctest */,
+				7587DDA51CCFD338005148F0 /* PhysicsHarryDbkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7587DD881CCFD338005148F0 /* PhysicsHarryDbk */ = {
+			isa = PBXGroup;
+			children = (
+				7587DD891CCFD338005148F0 /* AppDelegate.swift */,
+				7587DD8B1CCFD338005148F0 /* InitialViewController.swift */,
+				7587DD8D1CCFD338005148F0 /* Main.storyboard */,
+				759706741CE23710007C3C2F /* KinematicVar.swift */,
+				756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */,
+				756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */,
+				7587DD901CCFD338005148F0 /* Assets.xcassets */,
+				7587DD921CCFD338005148F0 /* LaunchScreen.storyboard */,
+				7587DD951CCFD338005148F0 /* Info.plist */,
+			);
+			path = PhysicsHarryDbk;
+			sourceTree = "<group>";
+		};
+		7587DD9D1CCFD338005148F0 /* PhysicsHarryDbkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7587DD9E1CCFD338005148F0 /* PhysicsHarryDbkTests.swift */,
+				7587DDA01CCFD338005148F0 /* Info.plist */,
+			);
+			path = PhysicsHarryDbkTests;
+			sourceTree = "<group>";
+		};
+		7587DDA81CCFD338005148F0 /* PhysicsHarryDbkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7587DDA91CCFD338005148F0 /* PhysicsHarryDbkUITests.swift */,
+				7587DDAB1CCFD338005148F0 /* Info.plist */,
+			);
+			path = PhysicsHarryDbkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7587DD851CCFD338005148F0 /* PhysicsHarryDbk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7587DDAE1CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbk" */;
+			buildPhases = (
+				7587DD821CCFD338005148F0 /* Sources */,
+				7587DD831CCFD338005148F0 /* Frameworks */,
+				7587DD841CCFD338005148F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicsHarryDbk;
+			productName = PhysicsHarryDbk;
+			productReference = 7587DD861CCFD338005148F0 /* PhysicsHarryDbk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7587DD991CCFD338005148F0 /* PhysicsHarryDbkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7587DDB11CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbkTests" */;
+			buildPhases = (
+				7587DD961CCFD338005148F0 /* Sources */,
+				7587DD971CCFD338005148F0 /* Frameworks */,
+				7587DD981CCFD338005148F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7587DD9C1CCFD338005148F0 /* PBXTargetDependency */,
+			);
+			name = PhysicsHarryDbkTests;
+			productName = PhysicsHarryDbkTests;
+			productReference = 7587DD9A1CCFD338005148F0 /* PhysicsHarryDbkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7587DDA41CCFD338005148F0 /* PhysicsHarryDbkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7587DDB41CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbkUITests" */;
+			buildPhases = (
+				7587DDA11CCFD338005148F0 /* Sources */,
+				7587DDA21CCFD338005148F0 /* Frameworks */,
+				7587DDA31CCFD338005148F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7587DDA71CCFD338005148F0 /* PBXTargetDependency */,
+			);
+			name = PhysicsHarryDbkUITests;
+			productName = PhysicsHarryDbkUITests;
+			productReference = 7587DDA51CCFD338005148F0 /* PhysicsHarryDbkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7587DD7E1CCFD338005148F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.dbk.coding;
+				TargetAttributes = {
+					7587DD851CCFD338005148F0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JKUR4KQK4R;
+					};
+					7587DD991CCFD338005148F0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JKUR4KQK4R;
+						TestTargetID = 7587DD851CCFD338005148F0;
+					};
+					7587DDA41CCFD338005148F0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JKUR4KQK4R;
+						TestTargetID = 7587DD851CCFD338005148F0;
+					};
+				};
+			};
+			buildConfigurationList = 7587DD811CCFD338005148F0 /* Build configuration list for PBXProject "PhysicsHarryDbk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7587DD7D1CCFD338005148F0;
+			productRefGroup = 7587DD871CCFD338005148F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7587DD851CCFD338005148F0 /* PhysicsHarryDbk */,
+				7587DD991CCFD338005148F0 /* PhysicsHarryDbkTests */,
+				7587DDA41CCFD338005148F0 /* PhysicsHarryDbkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7587DD841CCFD338005148F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7587DD941CCFD338005148F0 /* LaunchScreen.storyboard in Resources */,
+				7587DD911CCFD338005148F0 /* Assets.xcassets in Resources */,
+				7587DD8F1CCFD338005148F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587DD981CCFD338005148F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587DDA31CCFD338005148F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7587DD821CCFD338005148F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756F0CF21CE0F00800F7D630 /* KinematicsViewController.swift in Sources */,
+				7587DD8C1CCFD338005148F0 /* InitialViewController.swift in Sources */,
+				7587DD8A1CCFD338005148F0 /* AppDelegate.swift in Sources */,
+				756F0CF01CE0EF7B00F7D630 /* RocketViewController.swift in Sources */,
+				759706751CE23710007C3C2F /* KinematicVar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587DD961CCFD338005148F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7587DD9F1CCFD338005148F0 /* PhysicsHarryDbkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587DDA11CCFD338005148F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7587DDAA1CCFD338005148F0 /* PhysicsHarryDbkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7587DD9C1CCFD338005148F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7587DD851CCFD338005148F0 /* PhysicsHarryDbk */;
+			targetProxy = 7587DD9B1CCFD338005148F0 /* PBXContainerItemProxy */;
+		};
+		7587DDA71CCFD338005148F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7587DD851CCFD338005148F0 /* PhysicsHarryDbk */;
+			targetProxy = 7587DDA61CCFD338005148F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7587DD8D1CCFD338005148F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7587DD8E1CCFD338005148F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7587DD921CCFD338005148F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7587DD931CCFD338005148F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7587DDAC1CCFD338005148F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7587DDAD1CCFD338005148F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7587DDAF1CCFD338005148F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhysicsHarryDbk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dbk.PhysicsHarryDbk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7587DDB01CCFD338005148F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhysicsHarryDbk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dbk.PhysicsHarryDbk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7587DDB21CCFD338005148F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhysicsHarryDbkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dbk.PhysicsHarryDbkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhysicsHarryDbk.app/PhysicsHarryDbk";
+			};
+			name = Debug;
+		};
+		7587DDB31CCFD338005148F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhysicsHarryDbkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dbk.PhysicsHarryDbkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhysicsHarryDbk.app/PhysicsHarryDbk";
+			};
+			name = Release;
+		};
+		7587DDB51CCFD338005148F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhysicsHarryDbkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dbk.PhysicsHarryDbkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhysicsHarryDbk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7587DDB61CCFD338005148F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhysicsHarryDbkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dbk.PhysicsHarryDbkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhysicsHarryDbk;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7587DD811CCFD338005148F0 /* Build configuration list for PBXProject "PhysicsHarryDbk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7587DDAC1CCFD338005148F0 /* Debug */,
+				7587DDAD1CCFD338005148F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7587DDAE1CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7587DDAF1CCFD338005148F0 /* Debug */,
+				7587DDB01CCFD338005148F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7587DDB11CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7587DDB21CCFD338005148F0 /* Debug */,
+				7587DDB31CCFD338005148F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7587DDB41CCFD338005148F0 /* Build configuration list for PBXNativeTarget "PhysicsHarryDbkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7587DDB51CCFD338005148F0 /* Debug */,
+				7587DDB61CCFD338005148F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7587DD7E1CCFD338005148F0 /* Project object */;
+}
