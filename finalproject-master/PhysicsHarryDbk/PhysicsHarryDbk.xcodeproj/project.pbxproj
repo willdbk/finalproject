@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751E51DA1CF617450007F3A9 /* KinematicsGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751E51D91CF617450007F3A9 /* KinematicsGameViewController.swift */; };
 		756F0CF01CE0EF7B00F7D630 /* RocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */; };
 		756F0CF21CE0F00800F7D630 /* KinematicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */; };
 		7587DD8A1CCFD338005148F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD891CCFD338005148F0 /* AppDelegate.swift */; };
@@ -17,6 +18,12 @@
 		7587DD9F1CCFD338005148F0 /* PhysicsHarryDbkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DD9E1CCFD338005148F0 /* PhysicsHarryDbkTests.swift */; };
 		7587DDAA1CCFD338005148F0 /* PhysicsHarryDbkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7587DDA91CCFD338005148F0 /* PhysicsHarryDbkUITests.swift */; };
 		759706751CE23710007C3C2F /* KinematicVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759706741CE23710007C3C2F /* KinematicVar.swift */; };
+		75A8D6121CF7545700CA9206 /* FireParticleEmitter.sks in Resources */ = {isa = PBXBuildFile; fileRef = 75A8D6101CF7545600CA9206 /* FireParticleEmitter.sks */; };
+		75A8D6131CF7545700CA9206 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A8D6111CF7545700CA9206 /* spark.png */; };
+		75AD08961CF4BDBE005988BC /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 75AD08951CF4BDBE005988BC /* rocket.png */; };
+		75E7B6CF1CEA31F300287AED /* FluidsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E7B6CE1CEA31F300287AED /* FluidsViewController.swift */; };
+		75F9010F1CEE2ACF00EC9C0F /* KinematicScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 75F9010E1CEE2ACF00EC9C0F /* KinematicScene.sks */; };
+		75F901131CEE2D6E00EC9C0F /* KinematicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F901121CEE2D6E00EC9C0F /* KinematicScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		751E51D91CF617450007F3A9 /* KinematicsGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicsGameViewController.swift; sourceTree = "<group>"; };
 		756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketViewController.swift; sourceTree = "<group>"; };
 		756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicsViewController.swift; sourceTree = "<group>"; };
 		7587DD861CCFD338005148F0 /* PhysicsHarryDbk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsHarryDbk.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +61,12 @@
 		7587DDA91CCFD338005148F0 /* PhysicsHarryDbkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsHarryDbkUITests.swift; sourceTree = "<group>"; };
 		7587DDAB1CCFD338005148F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759706741CE23710007C3C2F /* KinematicVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinematicVar.swift; sourceTree = "<group>"; };
+		75A8D6101CF7545600CA9206 /* FireParticleEmitter.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticleEmitter.sks; sourceTree = "<group>"; };
+		75A8D6111CF7545700CA9206 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		75AD08951CF4BDBE005988BC /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		75E7B6CE1CEA31F300287AED /* FluidsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidsViewController.swift; sourceTree = "<group>"; };
+		75F9010E1CEE2ACF00EC9C0F /* KinematicScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KinematicScene.sks; sourceTree = "<group>"; };
+		75F901121CEE2D6E00EC9C0F /* KinematicScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KinematicScene.swift; path = ../KinematicScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +117,19 @@
 		7587DD881CCFD338005148F0 /* PhysicsHarryDbk */ = {
 			isa = PBXGroup;
 			children = (
+				75F901121CEE2D6E00EC9C0F /* KinematicScene.swift */,
 				7587DD891CCFD338005148F0 /* AppDelegate.swift */,
 				7587DD8B1CCFD338005148F0 /* InitialViewController.swift */,
 				7587DD8D1CCFD338005148F0 /* Main.storyboard */,
+				751E51D91CF617450007F3A9 /* KinematicsGameViewController.swift */,
+				75A8D6101CF7545600CA9206 /* FireParticleEmitter.sks */,
+				75A8D6111CF7545700CA9206 /* spark.png */,
+				75F9010E1CEE2ACF00EC9C0F /* KinematicScene.sks */,
 				759706741CE23710007C3C2F /* KinematicVar.swift */,
+				75AD08951CF4BDBE005988BC /* rocket.png */,
 				756F0CF11CE0F00800F7D630 /* KinematicsViewController.swift */,
 				756F0CEF1CE0EF7B00F7D630 /* RocketViewController.swift */,
+				75E7B6CE1CEA31F300287AED /* FluidsViewController.swift */,
 				7587DD901CCFD338005148F0 /* Assets.xcassets */,
 				7587DD921CCFD338005148F0 /* LaunchScreen.storyboard */,
 				7587DD951CCFD338005148F0 /* Info.plist */,
@@ -241,6 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A8D6121CF7545700CA9206 /* FireParticleEmitter.sks in Resources */,
+				75F9010F1CEE2ACF00EC9C0F /* KinematicScene.sks in Resources */,
+				75AD08961CF4BDBE005988BC /* rocket.png in Resources */,
+				75A8D6131CF7545700CA9206 /* spark.png in Resources */,
 				7587DD941CCFD338005148F0 /* LaunchScreen.storyboard in Resources */,
 				7587DD911CCFD338005148F0 /* Assets.xcassets in Resources */,
 				7587DD8F1CCFD338005148F0 /* Main.storyboard in Resources */,
@@ -271,8 +296,11 @@
 				756F0CF21CE0F00800F7D630 /* KinematicsViewController.swift in Sources */,
 				7587DD8C1CCFD338005148F0 /* InitialViewController.swift in Sources */,
 				7587DD8A1CCFD338005148F0 /* AppDelegate.swift in Sources */,
+				75E7B6CF1CEA31F300287AED /* FluidsViewController.swift in Sources */,
 				756F0CF01CE0EF7B00F7D630 /* RocketViewController.swift in Sources */,
 				759706751CE23710007C3C2F /* KinematicVar.swift in Sources */,
+				751E51DA1CF617450007F3A9 /* KinematicsGameViewController.swift in Sources */,
+				75F901131CEE2D6E00EC9C0F /* KinematicScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
